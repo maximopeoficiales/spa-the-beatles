@@ -1,0 +1,16 @@
+{
+  "name": "js-spa-the-beatles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss  tailwind.css  -o dist/assets/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "tailwindcss": "^1.8.10"
+  }
+}
