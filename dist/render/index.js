@@ -3,6 +3,7 @@ class Render {
     this.$root = document.querySelector("#root");
   }
   set(node) {
+    this.$root.innerHTML = "";
     this.$root.appendChild(node);
   }
 }
